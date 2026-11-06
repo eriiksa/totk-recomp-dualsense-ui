@@ -8,6 +8,18 @@ DualSense (PS5) button prompts for **The Legend of Zelda: Tears of the Kingdom**
 
 Drop-in mod: no dependencies, no patches, no rebuild.
 
+## Screenshots
+
+On-screen prompt in game — the ✕ / ○ / △ / □ glyphs replace the Switch ones:
+
+![In-game item pick-up prompt using the ○ button](img/in-game-prompt.png)
+
+Pause menu → *Controles básicos* / *Basic Controls* — the controller illustration redrawn as a DualSense:
+
+![Basic Controls menu showing the DualSense layout and button mapping](img/basic-controls-dualsense.png)
+
+Screenshots taken in game in Portuguese (pt-BR); the mod itself works in every language.
+
 ## Download
 
 Grab the zip from the [latest release](../../releases/latest).
