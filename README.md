@@ -20,18 +20,21 @@ Grab the zip from the [latest release](../../releases/latest).
 
 ## Install (3 steps)
 
-1. Extract the zip into the `mods` folder next to `totk.exe`
-   (in game: **F1 → Mods → Open mods folder**).
+1. Extract the zip **into the game folder — the one next to `totk.exe`**.
+   The zip already contains the whole `mods` folder path, so whatever you already have in `mods` stays; if Windows asks, pick **Replace the files in the destination**.
 2. Start the game, press **F1 → Mods** and switch **Simple PS5 UI - DualSense Prompts** ON.
 3. Restart the game. Done.
 
-After extracting you should have:
+You do **not** need to open the `mods` folder yourself — extracting next to `totk.exe` creates/merges it. After extracting you should have:
 
 ```text
-mods/
-└── Simple PS5 UI - DualSense Prompts/
-    ├── README.md
-    └── romfs/UI/LayoutArchive/Common.Product.140.Nin_NX_NVN.blarc.zs
+<game folder>/
+├── totk.exe
+└── mods/
+    └── Simple PS5 UI - DualSense Prompts/
+        ├── README.md
+        └── romfs/
+            └── UI/LayoutArchive/Common.Product.140.Nin_NX_NVN.blarc.zs
 ```
 
 ## Conflict
@@ -42,10 +45,11 @@ Only if another UI mod replaces the same file (e.g. *Dualshock 4 Controller UI*)
 
 | | |
 |---|---|
+| Mod folder | `mods/Simple PS5 UI - DualSense Prompts/` |
 | File | `UI/LayoutArchive/Common.Product.140.Nin_NX_NVN.blarc.zs` |
 | sha1 | `1a4567cec72bfa5ad98eccc54665139e216c333f` |
 | size | 6,286,991 bytes |
-| version | 1.0.0 |
+| version | 1.0.1 |
 
 ## Legal
 
